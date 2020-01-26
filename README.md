@@ -1,6 +1,9 @@
 # BillBoARd
-AR app that makes ad information more interactive and the products within the ad more easily accessible. Billboards are used as image targets in augmented reality to display more information about a given billboard. The additional information shown in AR could include maps, links, images, and more.
+AR app that makes ad information more interactive and the products within the ad more easily accessible. 
 
+
+## Summary
+Billboards are used as image targets in augmented reality to display more information about a given billboard. The additional information shown in AR could include maps, links, images, and more.
 
 
 ## MVP (Minimum Viable Product)
