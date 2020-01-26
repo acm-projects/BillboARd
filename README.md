@@ -50,7 +50,7 @@ An AR application that includes 2-3 components for users to interact with, showi
 **IDE (choose one):**
 
 - *Xcode - iOS route*
-- *Android Studio - Android Route*
+- *Android Studio - Android route*
 
 
 
