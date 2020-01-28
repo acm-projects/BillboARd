@@ -30,7 +30,7 @@ An AR application that includes 2-3 components for users to interact with, showi
   - Language(s): Swift
   - [Documentation](https://developer.apple.com/documentation/arkit)
 
-- *ARCore - (cross-platform)*
+- *ARCore - cross-platform*
 
   - Features motion tracking, environmental understanding, & light estimation
   - Works with Android Studio, Unity, Unreal Engine, & Cloud Anchors (iOS)
@@ -56,7 +56,7 @@ An AR application that includes 2-3 components for users to interact with, showi
 
 **UI Design (choose one):**
 
-- *Sketch*
+- *Sketch - Mac OS only*
 - *Figma*
 - *Adobe XD*
 
