@@ -78,6 +78,7 @@ An AR application that includes 2-3 components for users to interact with, showi
   - [Sample Project - Build a Drivable Car](https://www.linkedin.com/learning/arkit-and-unity-build-a-drivable-car-in-augmented-reality/introduction?u=70198226)
 - Vuforia
   - [Sample Project w/ Image Markers](https://www.linkedin.com/learning/unity-and-vuforia-trying-on-watches-in-augmented-reality/create-an-augmented-reality-watch-try-on-app?u=70198226)
+  - [Your First AR App in 20 Mins](https://youtu.be/HnjbTytHH6U)
 - Unity
   - Getting Started with AR Foundation [[1]](https://www.youtube.com/watch?v=Ml2UakwRxjk) [[2]](https://www.youtube.com/watch?v=Ml2UakwRxjk) [[3]](https://www.youtube.com/watch?v=0mpsiO2lCx0&list=PL6VJLOFcTt7awvyIGIbLLPOBrW6-Y1R-J)
 
