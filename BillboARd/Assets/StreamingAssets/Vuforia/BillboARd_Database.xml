@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="tegrat_poster_v2" size="0.215900 0.388224" />
+    <ImageTarget name="tegrat_poster" size="0.215900 0.388224" />
+    <ImageTarget name="Movie_poster" size="0.215900 0.279400" />
+    <ImageTarget name="Airline_poster" size="0.215900 0.279400" />
+  </Tracking>
+</QCARConfig>
