@@ -9,16 +9,29 @@ public class Screenshot : MonoBehaviour
     int screenHeightCropped;
     string imageName;
 
+    // Connect to the UI message which will appear when screenshot is taken
+    public Image m_ScreenshotMessage;
+
+    private void Start()
+    {
+        // Set the message to transparent when the app starts
+        m_ScreenshotMessage.color = new Color(1, 1, 1, 0);
+    }
+
     public void TakeScreenshot()
     {
 
+        // Test on windows editor only
         if (Application.platform == RuntimePlatform.WindowsEditor)
         {
             TakeScreenshotAndSaveWindowsTest();
         }
 
+        // Actually runs on the mobile device
         StartCoroutine(TakeScreenshotAndSave());
 
+        // Displays a message to tell user a screenshot was taken
+        StartCoroutine(DisplayScreenshotMessage());
     }
 
 
@@ -38,6 +51,23 @@ public class Screenshot : MonoBehaviour
         // To avoid memory leaks
         Destroy(ss);
     }
+
+    private IEnumerator DisplayScreenshotMessage()
+    {
+        // Set message to opaque
+        m_ScreenshotMessage.color = new Color(1, 1, 1, 1);
+
+        // fade from opaque to transparent
+        // loop over 1 second backwards
+        for (float i = 1; i >= 0; i -= Time.deltaTime)
+        {
+            // set color with i as alpha
+            m_ScreenshotMessage.color = new Color(1, 1, 1, i);
+            yield return null;
+        }
+        
+    }
+
 
     private void TakeScreenshotAndSaveWindowsTest()
     {
