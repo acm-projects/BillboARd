@@ -8,6 +8,7 @@ public class Screenshot : MonoBehaviour
     string galleryName = "BillboARd";
     int screenHeightCropped;
     string imageName;
+    bool screenshotFinished;
 
     // Connect to the UI message which will appear when screenshot is taken
     public Image m_ScreenshotMessage;
@@ -37,6 +38,7 @@ public class Screenshot : MonoBehaviour
 
     private IEnumerator TakeScreenshotAndSave()
     {
+        screenshotFinished = false;
         yield return new WaitForEndOfFrame();
 
         screenHeightCropped = (int)(Screen.height * 0.9f);
@@ -50,10 +52,16 @@ public class Screenshot : MonoBehaviour
 
         // To avoid memory leaks
         Destroy(ss);
+        screenshotFinished = true;
     }
 
     private IEnumerator DisplayScreenshotMessage()
     {
+        while(screenshotFinished == false)
+        {
+            yield return null;
+        }
+
         // Set message to opaque
         m_ScreenshotMessage.color = new Color(1, 1, 1, 1);
 
@@ -71,7 +79,9 @@ public class Screenshot : MonoBehaviour
 
     private void TakeScreenshotAndSaveWindowsTest()
     {
-        ScreenCapture.CaptureScreenshot("C:\\BillboARdScreenshots\\screenshot.png");
+        screenshotFinished = false;
+        ScreenCapture.CaptureScreenshot("C:\\Users\\6henr\\OneDrive - The University of Texas at Dallas\\2020 Spring Semester\\ACM BillboARd\\screenshot.png");
+        screenshotFinished = true;
     }
 
 }
