@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARTargetScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/RetailCard.unity
+    guid: 449cf5d0e43c5934ab514c77302e7251
+  - enabled: 1
+    path: Assets/Scenes/MovieCard.unity
+    guid: 36166a323a25b8740989a9da4da69116
   m_configObjects: {}
