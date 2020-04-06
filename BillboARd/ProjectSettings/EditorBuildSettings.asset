@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MovieCard.unity
     guid: 36166a323a25b8740989a9da4da69116
+  - enabled: 1
+    path: Assets/Scenes/AirlineCard.unity
+    guid: ca2dfbde80c2de64fb5564dd9ca85742
   m_configObjects: {}
