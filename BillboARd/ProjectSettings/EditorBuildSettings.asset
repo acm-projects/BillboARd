@@ -11,13 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gallery.unity
     guid: 577c7f256c0fd0149904930d14dd95fc
-  - enabled: 1
-    path: Assets/Scenes/RetailCard.unity
-    guid: 449cf5d0e43c5934ab514c77302e7251
-  - enabled: 1
-    path: Assets/Scenes/MovieCard.unity
-    guid: 36166a323a25b8740989a9da4da69116
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/AirlineCard.unity
     guid: ca2dfbde80c2de64fb5564dd9ca85742
+  - enabled: 1
+    path: Assets/Scenes/RetailCard.unity
+    guid: a64ef26cca22247cfbfe62d9cbb7ab1d
+  - enabled: 1
+    path: Assets/Scenes/MovieCard.unity
+    guid: f8b15c9cd33b34c1fb3867277943ce69
   m_configObjects: {}
