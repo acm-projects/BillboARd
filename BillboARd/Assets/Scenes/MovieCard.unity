@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 547246937}
   - component: {fileID: 547246936}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: AdjustedCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1576,7 +1576,7 @@ GameObject:
   - component: {fileID: 1478770205}
   - component: {fileID: 1478770204}
   m_Layer: 5
-  m_Name: Background (1)
+  m_Name: Covering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
