@@ -4,7 +4,7 @@ Bring a new dimension to advertising with BillboARd, an augmented reality app th
 ## Features 
 
 ### 3D Models 
-Users can view 3D models and animation by scanning billboards, which adds another layer of depth to otherwise flat advertisements. Users can also place 3D models on flat surface to see how products will look in person.
+Users can view 3D models and animation by scanning billboards, which adds another layer of depth to otherwise flat advertisements. Users can also place 3D models on flat surfaces to see how products will look in person.
 
 ### Video Overlay
 Billboards come to life with video when users view them through their mobile device. This can be used to display more information than would normally fit on a poster and enhance the visual impact.
