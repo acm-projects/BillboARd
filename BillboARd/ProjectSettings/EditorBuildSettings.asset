@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MovieCard.unity
     guid: f8b15c9cd33b34c1fb3867277943ce69
+  - enabled: 1
+    path: Assets/Scenes/Handbag.unity
+    guid: f9e49800aa817714c923bcd5fc02d55d
   m_configObjects: {}
