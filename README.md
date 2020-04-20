@@ -18,13 +18,15 @@ The app includes a page of all the possible billboards a user can scan and link 
 ## Built With
 > [Unity Version 2019.3.1f1](https://unity3d.com/get-unity/download)
 
-> [Unity Native Gallery Plugin](https://github.com/yasirkula/UnityNativeGallery)
-
 > [Vuforia Engine 8.6](https://developer.vuforia.com/downloads/sdk)
+
+> [Native Gallery Plugin for Unity](https://github.com/yasirkula/UnityNativeGallery)
 
 > [Blender Version 2.80](https://www.blender.org/)
 
 > [Figma](https://www.figma.com/)
+
+> [Inconify Plugin for Figma](https://github.com/iconify/iconify-figma)
 
 ## Assets
 > [Hand Model by 3DHaupt](https://www.turbosquid.com/3d-models/hands-rigged-3ds-free/932376)
