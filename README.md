@@ -50,6 +50,8 @@ Ideas for future implementation:
 
 ![Movie](https://i.imgur.com/Nouj0ED.jpg)
 
+![Retail](https://i.imgur.com/iCrpjKa.jpg)
+
 
 
 
