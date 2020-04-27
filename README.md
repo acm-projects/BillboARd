@@ -31,7 +31,7 @@ The app includes a page of all the possible billboards a user can scan and link 
 ## Assets
 > [Hand Model by 3DHaupt](https://www.turbosquid.com/3d-models/hands-rigged-3ds-free/932376)
 
-> [Purse Model by Tomoplace](https://www.cgtrader.com/free-3d-models/character/clothing/handbag-036)
+> [Beach Volleyball by Sonakshi-Sinha](https://www.cgtrader.com/free-3d-models/sports/toy/volleyball-ed0a1eb2-257a-4bcf-a28d-beb4505d566e)
 
 ## Roadmap
 Ideas for future implementation: 
